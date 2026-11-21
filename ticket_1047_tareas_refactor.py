@@ -43,7 +43,7 @@ def pedir_entero(mensaje):
             else:
                 print("⚠️Error: La cantidad debe ser mayor a 0")
         except ValueError:
-            print("⚠️Error: Ingrese una cnatidad válida ")
+            print("⚠️Error: Ingrese una cantidad válida ")
 while True:
     mostrar_menu()
     opcion = input("Elija una opcion (1,2,3,4,5 o 6):\n").strip()
